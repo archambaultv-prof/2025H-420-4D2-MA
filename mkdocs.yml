@@ -1,0 +1,39 @@
+site_name: Services d'échange de données - 420-4D2-MA - Hiver 2025
+site_description: Services d'échange de données - 420-4D2-MA - Hiver 2025 - Collège de Maisonneuve.
+site_url: https://archambaultv-prof.github.io/2025H-420-4D2-MA/
+nav:
+  - Page d'acceuil: index.md
+  - Échéancier: echeancier.md
+  - Évaluations sommatives: evaluations.md
+theme:
+  name: material
+  logo: assets/images/logo-white.svg
+  favicon: assets/images/favicon.png
+  language: fr
+  features:
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - navigation.top
+    - navigation.footer
+repo_url: https://github.com/archambaultv-prof/2025H-420-4D2-MA
+copyright: Le contenu de ce site est sous licence <a href="https://creativecommons.org/licenses/by/4.0/deed.fr">CC-BY 4.0</a>.
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+        emoji_index: !!python/name:material.extensions.emoji.twemoji
+        emoji_generator: !!python/name:material.extensions.emoji.to_svg
+plugins: 
+  # - social
+  - search

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="150"
+   height="100"
+   viewBox="0 0 150 100"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="logo-black.svg"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#555555"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="7.04"
+     inkscape:cx="75.071023"
+     inkscape:cy="61.71875"
+     inkscape:window-width="1872"
+     inkscape:window-height="1186"
+     inkscape:window-x="321"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1" />
+  <ellipse
+     cx="75"
+     cy="50"
+     rx="72.097069"
+     ry="46.429356"
+     fill="none"
+     stroke="#ffffff"
+     stroke-width="2.1542"
+     id="ellipse1"
+     style="stroke-width:3.70927;stroke-dasharray:none;stroke:#000000;stroke-opacity:1" />
+  <text
+     x="76.755119"
+     y="54.978607"
+     text-anchor="middle"
+     font-family="Roboto, Arial, sans-serif"
+     font-size="62.741px"
+     fill="#ffffff"
+     dominant-baseline="middle"
+     id="text1"
+     transform="scale(0.98499634,1.0152322)"
+     style="stroke-width:1.96065;-inkscape-font-specification:'Roboto, Arial, sans-serif, Medium';font-family:Roboto, Arial, sans-serif;font-weight:500;font-style:normal;font-stretch:normal;font-variant:normal;font-size:62.741px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;dominant-baseline:middle;text-anchor:middle;fill:#000000">4D2</text>
+</svg>
