@@ -1,6 +1,6 @@
 # Internet vs Livraison express
 
-Vous travaillez pour un studio de cinéma. Ils vous charge de transmettre pour 4
+Vous travaillez pour un studio de cinéma. Votre patron vous charge de transmettre pour 4
 téraoctets de données de film à un client. Vous avez le choix entre deux moyens
 de transmission :
 
