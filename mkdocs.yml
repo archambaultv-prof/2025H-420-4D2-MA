@@ -5,6 +5,13 @@ nav:
   - Page d'acceuil: index.md
   - Échéancier: echeancier.md
   - Évaluations sommatives: evaluations.md
+  - Semaine 1:
+    - Plan de leçon: semaine_01/index.md
+    - Théorie:
+      - Qu'est-ce qu'une donnée?: semaine_01/theorie/definition_donnee.md
+      - Avant et après Internet: semaine_01/theorie/avant_apres_internet.md
+      - Les différents formats: semaine_01/theorie/format_donnees.md
+    - Exercices: semaine_01/exercices/index.md
 theme:
   name: material
   logo: assets/images/logo-white.svg
@@ -35,5 +42,5 @@ markdown_extensions:
         emoji_index: !!python/name:material.extensions.emoji.twemoji
         emoji_generator: !!python/name:material.extensions.emoji.to_svg
 plugins: 
-  # - social
+  - social
   - search
