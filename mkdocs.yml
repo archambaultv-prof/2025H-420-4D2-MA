@@ -12,6 +12,14 @@ nav:
       - Avant et après Internet: semaine_01/theorie/avant_apres_internet.md
       - Les différents formats: semaine_01/theorie/format_donnees.md
     - Exercices: semaine_01/exercices/index.md
+  - Semaine 2:
+    - Plan de leçon: semaine_02/index.md
+    - Théorie:
+      - Javascript, les bases: semaine_02/theorie/les_bases.md
+      - Fonctions: semaine_02/theorie/fonctions.md
+      - Objets et tableaux: semaine_02/theorie/objets_tableaux.md
+      - JavaScript asynchrone: semaine_02/theorie/asynchrone.md
+    - Exercices: semaine_02/exercices/index.md
 theme:
   name: material
   logo: assets/images/logo-white.svg
