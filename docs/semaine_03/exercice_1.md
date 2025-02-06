@@ -12,7 +12,7 @@ async/await) et de développer votre autonomie.
 
 - Ce travail pratique est à réaliser individuellement.
 - Ce travail vaut 10% de la note finale.
-- La date de remise est le mercredi 12 février 2025 à 23h59.
+- La date de remise est le vendredi 14 février 2025 à 23h59.
 - L'utilisation de l'IA est permise.
 
 ## Contexte
@@ -80,6 +80,7 @@ revenus.
 
 - **Propriétés suggérées** :
   - `montant`  : le montant de la transaction.
+  - `compte`  : le compte associé à la transaction.	
   - `date`  : la date de la transaction.
   - `description`  : une description de la transaction. Peut être vide.
   - `type`  : transfert, dépenses ou revenus.
