@@ -20,6 +20,13 @@ nav:
       - Objets et tableaux: semaine_02/theorie/objets_tableaux.md
       - JavaScript asynchrone: semaine_02/theorie/asynchrone.md
     - Exercices: semaine_02/exercices/index.md
+  - Semaine 3:
+    - Plan de leçon: semaine_03/index.md
+    - Théorie:
+      - Espace de nom: semaine_03/theorie/scope.md
+      - Stateless vs Stateful: semaine_03/theorie/stateless_stateful.md
+      - Exporter et importer une classe: semaine_03/theorie/export.md
+    - Exercice 1: semaine_03/exercice_1.md
 theme:
   name: material
   logo: assets/images/logo-white.svg
