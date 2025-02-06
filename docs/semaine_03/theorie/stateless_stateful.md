@@ -10,6 +10,7 @@ avantages sont :
     - Facile à tester.
     - Prévisible et sans effets de bord.
     - Réutilisable.
+  
 - **Stateful (Avec état)**: Une fonction ou un objet est "stateful" s'il garde
 une information interne qui peut changer au fil du temps. Cela signifie que son
 comportement peut varier en fonction de son état interne. Exemple : un compteur
