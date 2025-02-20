@@ -16,7 +16,7 @@ hide:
 
 1. Installez SQLite3 et Knex (sauvegardez-les dans les dépendances de votre projet)
 2. Créez une route pour générer une base de données SQLite3
-      1. La route utilise la méthode HTTP `POST` et le chemin `/createdatabase`
+      1. La route utilise la méthode HTTP `POST` et le chemin `/create_database`
       2. La route doit créer une table `users` avec les colonnes `id` (auto-incrémenté) et `name` (texte)
       3. Votre code doit insérez quelques utilisateurs dans la table
       4. Retournez un message indiquant que la base de données a été créée ou qu'une erreur est survenue
@@ -24,7 +24,7 @@ hide:
       1. La route utilise la méthode HTTP `GET` et le chemin `/users`
       2. La route doit renvoyer la liste des utilisateurs sous forme de tableau JSON
 4. Créez une route pour ajouter un utilisateur
-      1. La route utilise la méthode HTTP `POST` et le chemin `/adduser`. Le nom
+      1. La route utilise la méthode HTTP `POST` et le chemin `/add_user`. Le nom
          de l'utilisateur est envoyé dans le corps de la requête. (voir [express.json()](https://expressjs.com/en/api.html#express.json))
       2. La route doit ajouter un utilisateur à la base de données
       3. Retournez un message indiquant que l'utilisateur a été ajouté ou qu'une erreur est survenue
@@ -36,7 +36,7 @@ hide:
       ```javascript
       app.use(express.json());
 
-      app.post('/adduser', (req, res) => {
+      app.post('/add_user', (req, res) => {
         const name = req.body.name;
         // ...
       });
@@ -56,7 +56,7 @@ des outils bien plus conviviaux comme [Postman](https://www.postman.com/) ou
 Voici comment utiliser curl pour créer une base de données:
 
 ```bash
-curl -X POST http://localhost:3000/createdatabase
+curl -X POST http://localhost:3000/create_database
 ```
 
 Voici comment utiliser curl pour envoyer un nom d'utilisateur à votre serveur:
