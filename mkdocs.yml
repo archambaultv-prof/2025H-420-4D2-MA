@@ -27,6 +27,13 @@ nav:
       - Stateless vs Stateful: semaine_03/theorie/stateless_stateful.md
       - Exporter et importer une classe: semaine_03/theorie/export.md
     - Exercice 1: semaine_03/exercice_1.md
+  - Semaine 4:
+    - Plan de leçon: semaine_04/index.md
+    - Théorie:
+      - Express js: semaine_04/theorie/expressjs.md
+      - Sqlite3 et Knex: semaine_04/theorie/sqlite3_knex.md
+      - Envoie de données: semaine_04/theorie/envoie_csv_json.md
+    - Exercice 1: semaine_04/exercices/index.md
 theme:
   name: material
   logo: assets/images/logo-white.svg
