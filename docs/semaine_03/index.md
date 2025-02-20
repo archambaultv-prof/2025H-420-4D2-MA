@@ -2,9 +2,10 @@
 hide:
   - toc
 ---
-# Semaine 2
+# Semaine 3
 
 ## Au programme
+
 - [Espace de nom](theorie/scope.md)
 - [Stateless vs Stateful](theorie/stateless_stateful.md)
 - [Exporter et importer une classe](theorie/export.md)

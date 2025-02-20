@@ -77,7 +77,6 @@ autre, comme le paiement d'une carte de crédit ou un virement entre deux
 comptes. Ainsi, il existe trois types de transactions : transfert, dépenses et
 revenus.
 
-
 - **Propriétés suggérées** :
   - `montant`  : le montant de la transaction.
   - `compte`  : le compte associé à la transaction.	
@@ -86,7 +85,6 @@ revenus.
   - `type`  : transfert, dépenses ou revenus.
   - `categorie`  : la catégorie associée à la transaction s'il s'agit d'une
     dépense ou d'un revenu. Sinon, le compte s'il s'agit d'un transfert.
-
 
 ### 3. Opérations asynchrones
 
@@ -103,6 +101,7 @@ comptes et les créer. Une ligne du fichier permet de créer un compte.
 Une fonction qui peut lire un fichier CSV contenant des informations sur les
 transactions et les créer. Par exemple le fichier CSV pourrait contenir les
 colonnes suivantes :
+
 - `date`, `montant`, `description`, `type`, `categorie`.
 
 #### c. Création de catégories
@@ -189,11 +188,11 @@ La grille est sur 20 points. La note finale sera ramenée sur 10 points.
 
 | Critère | Excellent (20 à 18) | Très bien (17 à 16) | Bien (15 à 14) | Passable (13 à 12) | Insuffisant (11 et moins) |
 |---------|---------------------|---------------------|----------------|--------------------|--------------------------|
-Fonctionnalité (20%) | Toutes les fonctionnalités demandées sont implémentées et fonctionnent correctement. | La plupart des fonctionnalités demandées sont implémentées et fonctionnent correctement. | Certaines fonctionnalités demandées sont implémentées et fonctionnent correctement. | Certaines fonctionnalités demandées sont implémentées mais ne fonctionnent pas correctement. | Peu de fonctionnalités demandées sont implémentées et ne fonctionnent pas correctement. |
-Qualité du code (25%) | Le code est bien structuré, modulaire et facile à lire. | Le code est bien structuré et modulaire. | Le code est structuré mais manque de modularité. | Le code est mal structuré et difficile à lire. | Le code est mal structuré et difficile à lire. |
-Tests unitaires (20%) | Toutes les classes et méthodes sont testées et les tests passent. Les cas limites sont testés. | La plupart des classes et méthodes sont testées et les tests passent. | Certaines classes et méthodes sont testées et les tests passent. | Certaines classes et méthodes sont testées mais les tests ne passent pas. | Peu de classes et méthodes sont testées et les tests ne passent pas. |
-Documentation (25%) | La documentation est complète, claire, concise et bien rédigée. | La documentation est complète et claire. Certains points pourraient être améliorés. | La documentation est complète mais manque de clarté. | La documentation est incomplète et manque de clarté. | La documentation est absente ou inexistante. |
-Package npm (10%) | Le package s'installe correctement et peut être utilisé sans problème. |  | Le package ne s'installe pas correctement. Une erreur mineure corrigée par le professeur. | | Le package ne s'installe pas correctement. Une erreur majeure difficile à corriger. |
+|Fonctionnalité (20%) | Toutes les fonctionnalités demandées sont implémentées et fonctionnent correctement. | La plupart des fonctionnalités demandées sont implémentées et fonctionnent correctement. | Certaines fonctionnalités demandées sont implémentées et fonctionnent correctement. | Certaines fonctionnalités demandées sont implémentées mais ne fonctionnent pas correctement. | Peu de fonctionnalités demandées sont implémentées et ne fonctionnent pas correctement. |
+|Qualité du code (25%) | Le code est bien structuré, modulaire et facile à lire. | Le code est bien structuré et modulaire. | Le code est structuré mais manque de modularité. | Le code est mal structuré et difficile à lire. | Le code est mal structuré et difficile à lire. |
+|Tests unitaires (20%) | Toutes les classes et méthodes sont testées et les tests passent. Les cas limites sont testés. | La plupart des classes et méthodes sont testées et les tests passent. | Certaines classes et méthodes sont testées et les tests passent. | Certaines classes et méthodes sont testées mais les tests ne passent pas. | Peu de classes et méthodes sont testées et les tests ne passent pas. |
+|Documentation (25%) | La documentation est complète, claire, concise et bien rédigée. | La documentation est complète et claire. Certains points pourraient être améliorés. | La documentation est complète mais manque de clarté. | La documentation est incomplète et manque de clarté. | La documentation est absente ou inexistante. |
+|Package npm (10%) | Le package s'installe correctement et peut être utilisé sans problème. |  | Le package ne s'installe pas correctement. Une erreur mineure corrigée par le professeur. | | Le package ne s'installe pas correctement. Une erreur majeure difficile à corriger. |
 
 ## Conseils et recommandations
 
