@@ -19,7 +19,7 @@ async/await) et de développer votre autonomie.
 
 D'ici un an, vous serez en stage dans une entreprise de développement de
 logiciels. Il est possible que vous utilisiez un autre langage que ceux que
-vous avez appris jusqu'à présent. Si vous deviez écrire une bibliothèque dans ce 
+vous avez appris jusqu'à présent. Si vous deviez écrire une bibliothèque dans ce
 langage, il vous faudrait trouver et lire la documentation par vous-même. Ce TP
 est une occasion de vous entraîner à le faire avec un langage que vous connaissez
 déjà.
@@ -79,7 +79,7 @@ revenus.
 
 - **Propriétés suggérées** :
   - `montant`  : le montant de la transaction.
-  - `compte`  : le compte associé à la transaction.	
+  - `compte`  : le compte associé à la transaction.
   - `date`  : la date de la transaction.
   - `description`  : une description de la transaction. Peut être vide.
   - `type`  : transfert, dépenses ou revenus.
@@ -126,7 +126,7 @@ besoin d'être asynchrone.
 
 Une fonction qui permet de calculer le flux monétaire d'une catégorie entre deux
 dates (inclusivement). Elle permet de répondre à la question : combien d'argent
-ai-je dépensé en nourriture entre le 1er janvier et le 31 décembre 2024 ? 
+ai-je dépensé en nourriture entre le 1er janvier et le 31 décembre 2024 ?
 
 Cette fonction accepte une liste de transactions, le nom de la catégorie, une
 date de début et une date de fin. Elle doit retourner le montant total dépensé
