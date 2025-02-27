@@ -176,10 +176,10 @@ La grille est sur 20 points. La note finale sera ramenée sur 15 points.
 
 | Critère | Excellent (20 à 18) | Très bien (17 à 16) | Bien (15 à 14) | Passable (13 à 12) | Insuffisant (11 et moins) |
 |---------|---------------------|---------------------|----------------|--------------------|--------------------------|
-|Fonctionnalité (35%) | Toutes les fonctionnalités demandées sont implémentées et fonctionnent correctement. | La plupart des fonctionnalités demandées sont implémentées et fonctionnent correctement. | Certaines fonctionnalités demandées sont implémentées et fonctionnent correctement. | Certaines fonctionnalités demandées sont implémentées mais ne fonctionnent pas correctement. | Peu de fonctionnalités demandées sont implémentées et ne fonctionnent pas correctement. |
-|Qualité du code (35%) | Le code est bien structuré, modulaire et facile à lire. | Le code est bien structuré et modulaire. | Le code est structuré mais manque de modularité. | Le code est mal structuré et difficile à lire. | Le code est mal structuré et difficile à lire. |
-|Requêtes http (15%) | Toutes les routes sont testées. Les cas limites sont testés. | La plupart des routes sont testées. | Certaines routes sont testées. | Peu de routes sont testées. | Peu de routes sont mal testées. |
-|Documentation (15%) | La documentation est complète, claire, concise et bien rédigée. | La documentation est complète et claire. Certains points pourraient être améliorés. | La documentation est complète mais manque de clarté. | La documentation est incomplète et manque de clarté. | La documentation est absente ou inexistante. |
+|Fonctionnalité (60%) | Toutes les fonctionnalités demandées sont implémentées et fonctionnent correctement. | La plupart des fonctionnalités demandées sont implémentées et fonctionnent correctement. | Certaines fonctionnalités demandées sont implémentées et fonctionnent correctement. | Certaines fonctionnalités demandées sont implémentées mais ne fonctionnent pas correctement. | Peu de fonctionnalités demandées sont implémentées et ne fonctionnent pas correctement. |
+|Requêtes http (20%) | Toutes les routes sont testées. Les cas limites sont testés. | La plupart des routes sont testées. | Certaines routes sont testées. | Peu de routes sont testées. | Peu de routes sont mal testées. |
+|Qualité du code (10%) | Le code est bien structuré, modulaire et facile à lire. | Le code est bien structuré et modulaire. | Le code est structuré mais manque de modularité. | Le code est mal structuré et difficile à lire. | Le code est mal structuré et difficile à lire. |
+|Documentation (10%) | La documentation est complète, claire, concise et bien rédigée. | La documentation est complète et claire. Certains points pourraient être améliorés. | La documentation est complète mais manque de clarté. | La documentation est incomplète et manque de clarté. | La documentation est absente ou inexistante. |
 
 ---
 
