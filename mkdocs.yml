@@ -34,6 +34,12 @@ nav:
       - Sqlite3 et Knex: semaine_04/theorie/sqlite3_knex.md
       - Envoie de données: semaine_04/theorie/envoie_csv_json.md
     - Exercice 1: semaine_04/exercices/index.md
+  - Semaine 5:
+    - Plan de leçon: semaine_05/index.md
+    - Théorie:
+      - Micro service: semaine_05/theorie/micro-service.md
+      - Soap: semaine_05/theorie/soap-rest.md
+    - Exercice 2: semaine_05/exercice_2.md
 theme:
   name: material
   logo: assets/images/logo-white.svg
