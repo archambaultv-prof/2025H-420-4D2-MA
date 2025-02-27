@@ -14,7 +14,7 @@ besoin de gérer l'authentification.
 
 - Ce travail pratique est à réaliser individuellement.
 - Ce travail vaut 15% de la note finale.
-- La date de remise est le jeudi 6 mars 2025 à 23h59.
+- La date de remise est le dimanche 9 mars 2025 à 23h59.
 - Remettre votre code source sur Omnivox.
 - L'utilisation de l'IA est permise.
 
