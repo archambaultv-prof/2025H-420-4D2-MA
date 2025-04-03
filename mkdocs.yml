@@ -40,8 +40,12 @@ nav:
       - Micro service: semaine_05/theorie/micro-service.md
       - Soap: semaine_05/theorie/soap-rest.md
     - Exercice 2: semaine_05/exercice_2.md
-  - Semaine 6:
-    - Plan de leçon: semaine_06/index.md
+  - Semaine 7:
+    - Plan de leçon: semaine_07/index.md
+  - Semaine 10:
+    - Plan de leçon: semaine_10/index.md
+    - Express Validateur: semaine_10/theorie/express-validator.md
+    - Exercice 3: semaine_10/exercice_3.md
 theme:
   name: material
   logo: assets/images/logo-white.svg

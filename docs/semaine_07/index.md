@@ -2,7 +2,7 @@
 hide:
   - toc
 ---
-# Semaine 6
+# Semaine 7
 
 ## Au programme
 
