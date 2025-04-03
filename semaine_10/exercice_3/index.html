@@ -10,25 +10,23 @@
       
       
       
-        <link rel="canonical" href="https://archambaultv-prof.github.io/2025H-420-4D2-MA/semaine_04/theorie/sqlite3_knex/">
+        <link rel="canonical" href="https://archambaultv-prof.github.io/2025H-420-4D2-MA/semaine_10/exercice_3/">
       
       
-        <link rel="prev" href="../expressjs/">
+        <link rel="prev" href="../theorie/express-validator/">
       
       
-        <link rel="next" href="../envoie_csv_json/">
       
-      
-      <link rel="icon" href="../../../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.50">
     
     
       
-        <title>Sqlite3 et Knex - Services d'échange de données - 420-4D2-MA - Hiver 2025</title>
+        <title>Exercice 3 - Services d'échange de données - 420-4D2-MA - Hiver 2025</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.a40c8224.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.a40c8224.min.css">
       
       
 
@@ -47,7 +45,7 @@
       
     
     
-    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -56,11 +54,11 @@
       
         <meta  property="og:type"  content="website" >
       
-        <meta  property="og:title"  content="Sqlite3 et Knex - Services d'échange de données - 420-4D2-MA - Hiver 2025" >
+        <meta  property="og:title"  content="Exercice 3 - Services d'échange de données - 420-4D2-MA - Hiver 2025" >
       
         <meta  property="og:description"  content="Services d'échange de données - 420-4D2-MA - Hiver 2025 - Collège de Maisonneuve." >
       
-        <meta  property="og:image"  content="https://archambaultv-prof.github.io/2025H-420-4D2-MA/assets/images/social/semaine_04/theorie/sqlite3_knex.png" >
+        <meta  property="og:image"  content="https://archambaultv-prof.github.io/2025H-420-4D2-MA/assets/images/social/semaine_10/exercice_3.png" >
       
         <meta  property="og:image:type"  content="image/png" >
       
@@ -68,15 +66,15 @@
       
         <meta  property="og:image:height"  content="630" >
       
-        <meta  property="og:url"  content="https://archambaultv-prof.github.io/2025H-420-4D2-MA/semaine_04/theorie/sqlite3_knex/" >
+        <meta  property="og:url"  content="https://archambaultv-prof.github.io/2025H-420-4D2-MA/semaine_10/exercice_3/" >
       
         <meta  name="twitter:card"  content="summary_large_image" >
       
-        <meta  name="twitter:title"  content="Sqlite3 et Knex - Services d'échange de données - 420-4D2-MA - Hiver 2025" >
+        <meta  name="twitter:title"  content="Exercice 3 - Services d'échange de données - 420-4D2-MA - Hiver 2025" >
       
         <meta  name="twitter:description"  content="Services d'échange de données - 420-4D2-MA - Hiver 2025 - Collège de Maisonneuve." >
       
-        <meta  name="twitter:image"  content="https://archambaultv-prof.github.io/2025H-420-4D2-MA/assets/images/social/semaine_04/theorie/sqlite3_knex.png" >
+        <meta  name="twitter:image"  content="https://archambaultv-prof.github.io/2025H-420-4D2-MA/assets/images/social/semaine_10/exercice_3.png" >
       
     
     
@@ -92,7 +90,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#sqlite3-et-knex" class="md-skip">
+        <a href="#exercice-3-api-rest-pour-un-systeme-de-billets-tickets" class="md-skip">
           Aller au contenu
         </a>
       
@@ -108,9 +106,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="En-tête">
-    <a href="../../.." title="Services d&#39;échange de données - 420-4D2-MA - Hiver 2025" class="md-header__button md-logo" aria-label="Services d'échange de données - 420-4D2-MA - Hiver 2025" data-md-component="logo">
+    <a href="../.." title="Services d&#39;échange de données - 420-4D2-MA - Hiver 2025" class="md-header__button md-logo" aria-label="Services d'échange de données - 420-4D2-MA - Hiver 2025" data-md-component="logo">
       
-  <img src="../../../assets/images/logo-white.svg" alt="logo">
+  <img src="../../assets/images/logo-white.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -127,7 +125,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Sqlite3 et Knex
+              Exercice 3
             
           </span>
         </div>
@@ -221,9 +219,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="Services d&#39;échange de données - 420-4D2-MA - Hiver 2025" class="md-nav__button md-logo" aria-label="Services d'échange de données - 420-4D2-MA - Hiver 2025" data-md-component="logo">
+    <a href="../.." title="Services d&#39;échange de données - 420-4D2-MA - Hiver 2025" class="md-nav__button md-logo" aria-label="Services d'échange de données - 420-4D2-MA - Hiver 2025" data-md-component="logo">
       
-  <img src="../../../assets/images/logo-white.svg" alt="logo">
+  <img src="../../assets/images/logo-white.svg" alt="logo">
 
     </a>
     Services d'échange de données - 420-4D2-MA - Hiver 2025
@@ -250,7 +248,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../.." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -270,7 +268,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../echeancier/" class="md-nav__link">
+      <a href="../../echeancier/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -290,7 +288,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../evaluations/" class="md-nav__link">
+      <a href="../../evaluations/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -345,7 +343,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../semaine_01/" class="md-nav__link">
+      <a href="../../semaine_01/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -401,7 +399,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../semaine_01/theorie/definition_donnee/" class="md-nav__link">
+      <a href="../../semaine_01/theorie/definition_donnee/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -422,7 +420,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../semaine_01/theorie/avant_apres_internet/" class="md-nav__link">
+      <a href="../../semaine_01/theorie/avant_apres_internet/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -443,7 +441,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../semaine_01/theorie/format_donnees/" class="md-nav__link">
+      <a href="../../semaine_01/theorie/format_donnees/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -472,7 +470,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../semaine_01/exercices/" class="md-nav__link">
+      <a href="../../semaine_01/exercices/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -535,7 +533,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../semaine_02/" class="md-nav__link">
+      <a href="../../semaine_02/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -591,7 +589,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../semaine_02/theorie/les_bases/" class="md-nav__link">
+      <a href="../../semaine_02/theorie/les_bases/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -612,7 +610,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../semaine_02/theorie/fonctions/" class="md-nav__link">
+      <a href="../../semaine_02/theorie/fonctions/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -633,7 +631,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../semaine_02/theorie/objets_tableaux/" class="md-nav__link">
+      <a href="../../semaine_02/theorie/objets_tableaux/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -654,7 +652,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../semaine_02/theorie/asynchrone/" class="md-nav__link">
+      <a href="../../semaine_02/theorie/asynchrone/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -683,7 +681,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../semaine_02/exercices/" class="md-nav__link">
+      <a href="../../semaine_02/exercices/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -746,7 +744,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../semaine_03/" class="md-nav__link">
+      <a href="../../semaine_03/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -802,7 +800,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../semaine_03/theorie/scope/" class="md-nav__link">
+      <a href="../../semaine_03/theorie/scope/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -823,7 +821,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../semaine_03/theorie/stateless_stateful/" class="md-nav__link">
+      <a href="../../semaine_03/theorie/stateless_stateful/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -844,7 +842,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../semaine_03/theorie/export/" class="md-nav__link">
+      <a href="../../semaine_03/theorie/export/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -873,7 +871,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../semaine_03/exercice_1/" class="md-nav__link">
+      <a href="../../semaine_03/exercice_1/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -898,19 +896,17 @@
       
   
   
-    
   
   
-  
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
         
           
           <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
@@ -924,7 +920,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_7">
             <span class="md-nav__icon md-icon"></span>
             Semaine 4
@@ -938,7 +934,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../" class="md-nav__link">
+      <a href="../../semaine_04/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -956,19 +952,17 @@
                 
   
   
-    
   
   
-  
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_2" >
         
           
           <label class="md-nav__link" for="__nav_7_2" id="__nav_7_2_label" tabindex="0">
@@ -982,7 +976,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_7_2">
             <span class="md-nav__icon md-icon"></span>
             Théorie
@@ -996,7 +990,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../expressjs/" class="md-nav__link">
+      <a href="../../semaine_04/theorie/expressjs/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1014,30 +1008,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Sqlite3 et Knex
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../semaine_04/theorie/sqlite3_knex/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1046,86 +1020,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table des matières
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#sqlite3" class="md-nav__link">
-    <span class="md-ellipsis">
-      Sqlite3
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#knex" class="md-nav__link">
-    <span class="md-ellipsis">
-      Knex
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Knex">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#connection-a-une-base-de-donnees-sqlite3" class="md-nav__link">
-    <span class="md-ellipsis">
-      Connection à une base de données Sqlite3
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#schema" class="md-nav__link">
-    <span class="md-ellipsis">
-      Schema
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#requetes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Requêtes
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#alias" class="md-nav__link">
-    <span class="md-ellipsis">
-      Alias
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1138,7 +1032,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../envoie_csv_json/" class="md-nav__link">
+      <a href="../../semaine_04/theorie/envoie_csv_json/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1167,7 +1061,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../exercices/" class="md-nav__link">
+      <a href="../../semaine_04/exercices/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1230,7 +1124,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../semaine_05/" class="md-nav__link">
+      <a href="../../semaine_05/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1286,7 +1180,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../semaine_05/theorie/micro-service/" class="md-nav__link">
+      <a href="../../semaine_05/theorie/micro-service/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1307,7 +1201,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../semaine_05/theorie/soap-rest/" class="md-nav__link">
+      <a href="../../semaine_05/theorie/soap-rest/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1336,7 +1230,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../semaine_05/exercice_2/" class="md-nav__link">
+      <a href="../../semaine_05/exercice_2/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1399,7 +1293,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../semaine_07/" class="md-nav__link">
+      <a href="../../semaine_07/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1424,17 +1318,19 @@
       
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" checked>
         
           
           <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
@@ -1448,7 +1344,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_10">
             <span class="md-nav__icon md-icon"></span>
             Semaine 10
@@ -1462,7 +1358,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../semaine_10/" class="md-nav__link">
+      <a href="../" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1483,7 +1379,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../semaine_10/theorie/express-validator/" class="md-nav__link">
+      <a href="../theorie/express-validator/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1501,10 +1397,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../../semaine_10/exercice_3/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Exercice 3
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -1513,6 +1429,149 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#objectif" class="md-nav__link">
+    <span class="md-ellipsis">
+      Objectif
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#informations-generales" class="md-nav__link">
+    <span class="md-ellipsis">
+      Informations générales
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consignes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Consignes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Consignes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-creer-un-depot-git" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Créer un dépôt Git
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-creer-un-projet-nodejs-avec-express" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Créer un projet Node.js avec Express
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-configurer-la-base-de-donnees" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Configurer la base de données
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-utilisateurs-techniciens-et-administrateurs" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Utilisateurs, techniciens et administrateurs
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-developpement-des-routes" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Développement des routes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-securiser-lapi" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Sécuriser l'API
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-valider-les-donnees-dentree" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Valider les données d'entrée
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-requetes-http-de-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Requêtes HTTP de test
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#livrables" class="md-nav__link">
+    <span class="md-ellipsis">
+      Livrables
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#criteres-devaluation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Critères d’évaluation
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1552,55 +1611,73 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#sqlite3" class="md-nav__link">
+  <a href="#objectif" class="md-nav__link">
     <span class="md-ellipsis">
-      Sqlite3
+      Objectif
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#knex" class="md-nav__link">
+  <a href="#informations-generales" class="md-nav__link">
     <span class="md-ellipsis">
-      Knex
+      Informations générales
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Knex">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consignes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Consignes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Consignes">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#connection-a-une-base-de-donnees-sqlite3" class="md-nav__link">
+  <a href="#1-creer-un-depot-git" class="md-nav__link">
     <span class="md-ellipsis">
-      Connection à une base de données Sqlite3
+      1. Créer un dépôt Git
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#schema" class="md-nav__link">
+  <a href="#2-creer-un-projet-nodejs-avec-express" class="md-nav__link">
     <span class="md-ellipsis">
-      Schema
+      2. Créer un projet Node.js avec Express
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#requetes" class="md-nav__link">
+  <a href="#3-configurer-la-base-de-donnees" class="md-nav__link">
     <span class="md-ellipsis">
-      Requêtes
+      3. Configurer la base de données
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#alias" class="md-nav__link">
+  <a href="#4-utilisateurs-techniciens-et-administrateurs" class="md-nav__link">
     <span class="md-ellipsis">
-      Alias
+      4. Utilisateurs, techniciens et administrateurs
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-developpement-des-routes" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Développement des routes
     </span>
   </a>
   
@@ -1608,6 +1685,51 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-securiser-lapi" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Sécuriser l'API
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-valider-les-donnees-dentree" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Valider les données d'entrée
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-requetes-http-de-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Requêtes HTTP de test
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#livrables" class="md-nav__link">
+    <span class="md-ellipsis">
+      Livrables
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#criteres-devaluation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Critères d’évaluation
+    </span>
+  </a>
   
 </li>
       
@@ -1629,66 +1751,128 @@
   
 
 
-<h1 id="sqlite3-et-knex">Sqlite3 et Knex</h1>
-<h2 id="sqlite3">Sqlite3</h2>
-<p>Sqlite3 est une base de données relationnelle qui est stockée dans un fichier.
-Elle est très facile à utiliser et ne nécessite pas de configuration.</p>
-<p>La documentation officielle de Sqlite3 est disponible
-<a href="https://www.sqlite.org/docs.html">ici</a>. Dans le cadre de ce cours, nous allons
-utiliser Knex pour interagir avec Sqlite3.</p>
-<h2 id="knex">Knex</h2>
-<p>Knex est un constructeur de requêtes SQL pour Node.js. Il permet de créer des
-requêtes SQL de manière programmatique. Les deux grand avantages de Knex sont:</p>
+<h1 id="exercice-3-api-rest-pour-un-systeme-de-billets-tickets">Exercice 3 : API REST pour un système de billets (tickets)</h1>
+<h2 id="objectif">Objectif</h2>
+<p>Pour ce TP, vous êtes chargé de développer une API pour une application de support
+qui permet aux utilisateurs de soumettre des demandes d'assistance (tickets) et
+de suivre leur statut. L'application permet également aux agents de support de
+gérer les tickets et de communiquer avec les utilisateurs.</p>
+<p>Une partie importante de ce TP est de vous familiariser avec la bibliothèque
+<a href="https://express-validator.github.io/docs/">express-validator</a> pour valider les
+données d'entrée de l'API. Vous devez lire la documentation de cette
+bibliothèque et l'utiliser pour valider les données d'entrée de votre API.</p>
+<p>Je reste disponible pour répondre à vos questions sur l'utilisation de cette
+bibliothèque.</p>
+<h2 id="informations-generales">Informations générales</h2>
 <ul>
-<li>Permettre de construire les requêtes SQL sans avoir à écrire du SQL à la main.</li>
-<li>Fonctionne avec plusieurs bases de données: Sqlite3, MySQL, PostgreSQL, etc.</li>
+<li>Ce travail pratique est à réaliser individuellement.</li>
+<li>Ce travail vaut 10% de la note finale.</li>
+<li>La date de remise est le dimanche 13 avril 2025 à 23h59.</li>
+<li>L'utilisation de l'IA est permise.</li>
 </ul>
-<p>La documentation officielle de Knex est disponible
-<a href="http://knexjs.org/">ici</a>.</p>
-<h3 id="connection-a-une-base-de-donnees-sqlite3">Connection à une base de données Sqlite3</h3>
-<p>Pour se connecter à une base de données Sqlite3 avec Knex, il suffit de créer
-une instance de Knex de la manière suivante:</p>
-<div class="language-javascript highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kd">const</span><span class="w"> </span><span class="nx">knex</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">require</span><span class="p">(</span><span class="s1">&#39;knex&#39;</span><span class="p">)({</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">  </span><span class="nx">client</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;sqlite3&#39;</span><span class="p">,</span>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">  </span><span class="nx">connection</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="nx">filename</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;./data.db&#39;</span>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">  </span><span class="p">}</span>
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="p">});</span>
-</span></code></pre></div>
-<p>Dans cet exemple, nous créons une instance de Knex qui se connecte à la base de
-données <code>data.db</code> qui est un fichier Sqlite3.</p>
-<h3 id="schema">Schema</h3>
-<p>Knex permet de créer des schémas de base de données de manière programmatique.
-Par exemple, pour créer une table <code>users</code> avec une colonne <code>name</code> de type
-<code>string</code>, il suffit de faire:</p>
-<div class="language-javascript highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="k">await</span><span class="w"> </span><span class="nx">knex</span><span class="p">.</span><span class="nx">schema</span><span class="p">.</span><span class="nx">createTable</span><span class="p">(</span><span class="s1">&#39;users&#39;</span><span class="p">,</span><span class="w"> </span><span class="p">(</span><span class="nx">table</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">    </span><span class="nx">table</span><span class="p">.</span><span class="nx">increments</span><span class="p">(</span><span class="s1">&#39;id&#39;</span><span class="p">);</span>
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">    </span><span class="nx">table</span><span class="p">.</span><span class="nx">string</span><span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">);</span>
-</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">    </span><span class="p">});</span>
-</span></code></pre></div>
-<p>La plupart des fonctions de Knex renvoient une promesse, il est donc important
-d'utiliser <code>await</code> pour attendre la résolution de la promesse.</p>
-<h3 id="requetes">Requêtes</h3>
-<p>Voici quelques exemples de requêtes SQL avec Knex:</p>
-<div class="language-javascript highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="c1">// Insertion</span>
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="kd">const</span><span class="w"> </span><span class="nx">insertedRows</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">knex</span><span class="p">(</span><span class="s1">&#39;users&#39;</span><span class="p">).</span><span class="nx">insert</span><span class="p">({</span><span class="nx">name</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;Alice&#39;</span><span class="p">});</span>
-</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="c1">// Sélection</span>
-</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="kd">const</span><span class="w"> </span><span class="nx">selectedRows</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">knex</span><span class="p">(</span><span class="s1">&#39;users&#39;</span><span class="p">).</span><span class="nx">select</span><span class="p">(</span><span class="s1">&#39;*&#39;</span><span class="p">);</span>
-</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="c1">// Mise à jour</span>
-</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="k">await</span><span class="w"> </span><span class="nx">knex</span><span class="p">(</span><span class="s1">&#39;users&#39;</span><span class="p">).</span><span class="nx">where</span><span class="p">({</span><span class="nx">id</span><span class="o">:</span><span class="w"> </span><span class="mf">1</span><span class="p">}).</span><span class="nx">update</span><span class="p">({</span><span class="nx">name</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;Bob&#39;</span><span class="p">});</span>
-</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="c1">// Suppression</span>
-</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="k">await</span><span class="w"> </span><span class="nx">knex</span><span class="p">(</span><span class="s1">&#39;users&#39;</span><span class="p">).</span><span class="nx">where</span><span class="p">({</span><span class="nx">id</span><span class="o">:</span><span class="w"> </span><span class="mf">1</span><span class="p">}).</span><span class="nx">del</span><span class="p">();</span>
-</span></code></pre></div>
-<h3 id="alias">Alias</h3>
-<p>Il est possible d'utiliser des alias pour les tables et les colonnes. Par
-exemple, pour sélectionner la colonne <code>name</code> de la table <code>users</code> et la renommer
-en <code>username</code>, il suffit de faire:</p>
-<div class="language-javascript highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kd">const</span><span class="w"> </span><span class="nx">selectedRows</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">knex</span><span class="p">(</span><span class="s1">&#39;users&#39;</span><span class="p">).</span><span class="nx">select</span><span class="p">(</span><span class="s1">&#39;name as username&#39;</span><span class="p">);</span>
-</span></code></pre></div>
-<p>Il est aussi possible d'utiliser un objet javascript pour renommer plusieurs
-colonnes:</p>
-<div class="language-javascript highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kd">const</span><span class="w"> </span><span class="nx">selectedRows</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">knex</span><span class="p">(</span><span class="s1">&#39;users&#39;</span><span class="p">).</span><span class="nx">select</span><span class="p">({</span><span class="nx">name</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;username&#39;</span><span class="p">,</span><span class="w"> </span><span class="nx">id</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;user_id&#39;</span><span class="p">});</span>
-</span></code></pre></div>
+<h2 id="consignes">Consignes</h2>
+<h3 id="1-creer-un-depot-git">1. Créer un dépôt Git</h3>
+<p>Créez un dépôt Git pour votre projet. Vous pouvez le faire sur GitHub ou sur
+GitLab. Assurez-vous de le rendre public afin que je puisse y accéder.</p>
+<p>Votre travail doit être sur la branche <code>main</code> de votre dépôt. Je vais corriger
+le dernier commit de cette branche avant la date et l'heure limite de remise. </p>
+<p>Vous pouvez également créer d'autres branches comme <code>dev</code> pour le développement, mais je ne
+vais pas corriger ces branches.</p>
+<h3 id="2-creer-un-projet-nodejs-avec-express">2. Créer un projet Node.js avec Express</h3>
+<p>Assurez-vous que votre projet est un projet Node.js valide. Il devrait
+inclure un fichier <code>package.json</code> valide. Vous pouvez vous inspirer du
+<a href="https://github.com/archambaultv-prof/2025H-420-4D2-MA-Authentification">dépôt d'exemple sur les authentifications</a>.</p>
+<h3 id="3-configurer-la-base-de-donnees">3. Configurer la base de données</h3>
+<p>Votre code doit être capable de créer la base de données SQLite3 lorsque
+l'application démarre si elle n'existe pas déjà. Vous pouvez utiliser Knex.</p>
+<p>Votre base de données doit contenir les tables suivantes :</p>
+<ul>
+<li><code>users</code> : pour stocker les informations des utilisateurs.</li>
+<li><code>tickets</code> : pour stocker les informations des tickets.</li>
+</ul>
+<p>Vous devez déterminer vous-mêmes les colonnes nécessaires pour chaque table en fonction
+des besoins de l'application.</p>
+<h3 id="4-utilisateurs-techniciens-et-administrateurs">4. Utilisateurs, techniciens et administrateurs</h3>
+<p>L'application doit gérer trois types d'utilisateurs :</p>
+<ul>
+<li><strong>Utilisateur</strong> : Peut soumettre des tickets et voir l'historique de ses tickets.</li>
+<li><strong>Technicien</strong> : Peut voir tous les tickets et les mettre à jour.</li>
+<li><strong>Administrateur</strong> : Peut créer des utilisateurs et des techniciens. Mais ce compte
+  n'est <em>pas</em> utilisé pour créer ou mettre à jour des tickets. Les routes qui gèrent
+  les tickets (<code>/api/tickets</code>) ne doivent pas être accessibles par un administrateur, c'est-à-dire
+  qu'elle retourne un message d'erreur si l'utilisateur est un administrateur.</li>
+</ul>
+<h3 id="5-developpement-des-routes">5. Développement des routes</h3>
+<p>Développez les routes suivantes pour l'API :</p>
+<ul>
+<li><code>POST /api/auth/admin</code> : Logging d'un administrateur. Vous pouvez créer un administrateur
+  avec un mot de passe par défaut dans la base de données.</li>
+<li><code>POST /api/auth/new</code> : Inscription d'un nouvel utilisateur ou d'un nouveau technicien. Seul un
+  administrateur peut créer un nouvel utilisateur ou technicien.</li>
+<li><code>POST /api/auth/login</code> : Authentification d'un utilisateur ou technicien. Notez que l'administrateur
+  ne se connecte pas avec cette route.</li>
+<li><code>POST /api/tickets</code> : Créer un nouveau ticket par un utilisateur ou un
+  technicien.</li>
+<li><code>GET /api/tickets</code> : Obtenir la liste de tous les tickets. Seul un technicien 
+  peut voir tous les tickets. Un utilisateur ne peut voir que ses propres tickets.</li>
+<li><code>GET /api/tickets/:id</code> : Obtenir les détails d'un ticket.</li>
+<li>
+<p><code>PUT /api/tickets/:id</code> : Mettre à jour un ticket. Seul un technicien peut
+  mettre à jour un ticket. Notez que fermer un ticket est une mise à jour de son statut.</p>
+</li>
+<li>
+<p><code>DELETE /api/admin/tickets/:id</code> : Supprimer un ticket. Seul un administrateur
+  peut supprimer un ticket.</p>
+</li>
+</ul>
+<h2 id="6-securiser-lapi">6. Sécuriser l'API</h2>
+<p>Vous devez sécuriser l'API avec JWT (JSON Web Token). Cela signifie que
+lorsqu'un utilisateur, administrateur ou un technicien se connecte, il doit
+recevoir un token JWT qui doit être utilisé en fonction de la route.</p>
+<p>Vous devez sécuriser les mots de passe dans la base de données. Vous pouvez utiliser
+bcrypt pour cela.</p>
+<h2 id="7-valider-les-donnees-dentree">7. Valider les données d'entrée</h2>
+<p>Utilisez <code>express-validator</code> pour valider les données d'entrée de l'API. Notamment, un billet
+valide doit contenir les champs suivants :</p>
+<ul>
+<li><code>title</code> : Le titre du ticket (doit être une chaîne de caractères non vide).</li>
+<li><code>description</code> : La description du ticket (doit être une chaîne de caractères non vide).</li>
+<li><code>status</code> : Le statut du ticket doit être l'un des suivants : <code>open</code>, <code>in progress</code>, <code>closed</code>.</li>
+<li><code>userId</code> : L'ID de l'utilisateur qui a créé le ticket (doit être un entier positif) qui
+  correspond à un utilisateur existant dans la base de données.</li>
+<li><code>technicianId</code> : L'ID du technicien qui gère le ticket (doit être un entier positif) qui
+  correspond à un technicien existant dans la base de données ou <code>null</code> si le ticket
+  n'est pas encore assigné à un technicien.</li>
+<li><code>createdAt</code> : La date de création du ticket (doit être une date valide).</li>
+<li><code>closedAt</code> : La date de fermeture du ticket (doit être une date valide ou <code>null</code> si le
+  ticket n'est pas encore fermé). Si le ticket est fermé, la date de fermeture
+  doit être supérieure à la date de création. Le statut du ticket doit être
+  <code>closed</code> si la date de fermeture est renseignée.</li>
+</ul>
+<p>Toutes ces validations doivent être effectuées à l'aide de <code>express-validator</code>.
+Ceci est important, vous perdez des points si vous le faites sans
+<code>express-validator</code>.</p>
+<h2 id="8-requetes-http-de-test">8. Requêtes HTTP de test</h2>
+<p>Vous devez créer un fichier <code>request.http</code> dans lequel vous allez
+tester toutes les routes de l'API. Vous pouvez utiliser le plugin
+<a href="https://marketplace.visualstudio.com/items?itemName=humao.rest-client">REST Client</a>
+pour Visual Studio Code. Ce fichier doit être dans votre dépôt Git.</p>
+<h2 id="livrables">Livrables</h2>
+<ul>
+<li><strong>Code source</strong> : Votre code source doit être bien structuré et organisé.</li>
+<li><strong>README</strong> : Un fichier <code>README.md</code></li>
+<li><strong>Commentaires</strong> : Votre code doit être commenté de manière appropriée.</li>
+</ul>
+<h2 id="criteres-devaluation">Critères d’évaluation</h2>
+<ul>
+<li><strong>Fonctionnalité (25%)</strong> : L'API doit fonctionner comme prévu.</li>
+<li><strong>Validation (40%)</strong> : Utilisation d'Express Validator pour valider les données
+  d'entrée et conditionner les routes.</li>
+<li><strong>Sécurité (25%)</strong> : Sécuriser l'API avec JWT.</li>
+<li><strong>Qualité du code (10%)</strong> : Le code doit être bien structuré et commenté.</li>
+</ul>
+<hr />
+<p>Bonne chance et bon travail !</p>
 
 
 
@@ -1727,7 +1911,7 @@ colonnes:</p>
       <nav class="md-footer__inner md-grid" aria-label="Pied de page" >
         
           
-          <a href="../expressjs/" class="md-footer__link md-footer__link--prev" aria-label="Précédent: Express js">
+          <a href="../theorie/express-validator/" class="md-footer__link md-footer__link--prev" aria-label="Précédent: Express Validateur">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1737,27 +1921,11 @@ colonnes:</p>
                 Précédent
               </span>
               <div class="md-ellipsis">
-                Express js
+                Express Validateur
               </div>
             </div>
           </a>
         
-        
-          
-          <a href="../envoie_csv_json/" class="md-footer__link md-footer__link--next" aria-label="Suivant: Envoie de données">
-            <div class="md-footer__title">
-              <span class="md-footer__direction">
-                Suivant
-              </span>
-              <div class="md-ellipsis">
-                Envoie de données
-              </div>
-            </div>
-            <div class="md-footer__button md-icon">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
-            </div>
-          </a>
         
       </nav>
     
@@ -1788,10 +1956,10 @@ colonnes:</p>
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["search.suggest", "search.highlight", "search.share", "content.code.copy", "navigation.top", "navigation.footer"], "search": "../../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["search.suggest", "search.highlight", "search.share", "content.code.copy", "navigation.top", "navigation.footer"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.60a45f97.min.js"></script>
+      <script src="../../assets/javascripts/bundle.60a45f97.min.js"></script>
       
     
   </body>
