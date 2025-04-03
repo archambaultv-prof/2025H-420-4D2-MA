@@ -6,7 +6,7 @@ hide:
 
 ## Au programme
 
-- [Authentification](https://github.com/archambaultv-prof/bac-a-sable-node)
+- [Authentification](https://github.com/archambaultv-prof/2025H-420-4D2-MA-Authentification)
 
 ## Examen la semaine prochaine
 
