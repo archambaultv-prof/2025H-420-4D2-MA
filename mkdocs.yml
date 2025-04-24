@@ -46,6 +46,10 @@ nav:
     - Plan de leçon: semaine_10/index.md
     - Express Validateur: semaine_10/theorie/express-validator.md
     - Exercice 3: semaine_10/exercice_3.md
+  - Semaine 11:
+    - Plan de leçon: semaine_11/index.md
+  - Semaine 12:
+    - Plan de leçon: semaine_12/index.md
 theme:
   name: material
   logo: assets/images/logo-white.svg
